@@ -1,19 +1,4 @@
-How would I add these two projects: Drone Delivery Simulation | C++, TypeScript, Docker, HTML/CSS, Agile/Scrum Spring 2025
-• Engineered a drone simulation system with a Singleton-based DataCollectionManager to track distance traveled
-and packages delivered, exporting data to CSV and notifying the frontend via Observer pattern
-• Applied Decorator pattern to dynamically augment drone capabilities (encryption, sensors) and Observer
-pattern for real-time package tracking, maintaining SOLID principles
-• Containerized and deployed the full simulation using Docker with frontend integration for user-selected encryption
-methods
-House Price Prediction Model | Python, pandas, scikit-learn, XGBoost 2025
-• Analyzed and preprocessed the Ames Housing dataset (1,460 properties, 80+ features) including handling
-259 missing LotFrontage values and visualizing distributions/correlations using seaborn
-• Engineered temporal features (e.g., house age = YrSold - YearBuilt) and value-density features (price/sqft),
-reducing prediction error by 12% versus baseline
-• Trained 6 regression models on the processed dataset (35 numerical/43 categorical features), achieving
-98% R² and $6,844 MAE with Gradient Boosting—outperforming Linear Regression by 37% in error reduction
-• Visualized model performance via residual plots and actual vs. predicted price comparisons, validating robustness
-across $140K-$755K price ranges, to my portfolio. Here's my portfolio code: <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -589,7 +574,41 @@ across $140K-$755K price ranges, to my portfolio. Here's my portfolio code: <!DO
                         </div>
                     </div>
                 </div>
-
+                <!-- New Project: House Price Prediction Model -->
+                <div class="project-card bg-gray-700 rounded-xl overflow-hidden shadow-lg border border-gray-600">
+                    <div class="h-48 bg-gradient-to-r from-purple-700 to-pink-700 relative overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-gray-200 opacity-80"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-200">House Price Prediction Model</h3>
+                        <p class="text-gray-300 mb-4">Machine learning model to predict house prices using the Ames Housing dataset</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-gray-600 text-blue-300 text-xs rounded">Python</span>
+                            <span class="px-2 py-1 bg-gray-600 text-blue-300 text-xs rounded">pandas</span>
+                            <span class="px-2 py-1 bg-gray-600 text-blue-300 text-xs rounded">scikit-learn</span>
+                            <span class="px-2 py-1 bg-gray-600 text-blue-300 text-xs rounded">XGBoost</span>
+                            <span class="px-2 py-1 bg-gray-600 text-blue-300 text-xs rounded">Data Visualization</span>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-300 text-sm space-y-1 mb-4">
+                            <li>Processed 1,460 properties with 80+ features</li>
+                            <li>Feature engineering reduced error by 12% vs baseline</li>
+                            <li>98% R² and $6,844 MAE with Gradient Boosting</li>
+                            <li>Outperformed Linear Regression by 37% error reduction</li>
+                        </ul>
+                        <div class="flex space-x-3">
+                            <a href="https://github.com/haydenChuu"
+                                class="text-blue-400 hover:text-blue-300 transition-colors">
+                                <i class="fab fa-github mr-1"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <!-- Project 2 -->
                 <div class="project-card bg-gray-700 rounded-xl overflow-hidden shadow-lg border border-gray-600">
                     <div class="h-48 bg-gradient-to-r from-green-600 to-blue-600 relative overflow-hidden">
@@ -620,7 +639,41 @@ across $140K-$755K price ranges, to my portfolio. Here's my portfolio code: <!DO
                         </div>
                     </div>
                 </div>
-
+                <!-- New Project: Drone Delivery Simulation -->
+                <div class="project-card bg-gray-700 rounded-xl overflow-hidden shadow-lg border border-gray-600">
+                    <div class="h-48 bg-gradient-to-r from-blue-700 to-indigo-700 relative overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-gray-200 opacity-80"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-200">Drone Delivery Simulation</h3>
+                        <p class="text-gray-300 mb-4">Engineered a drone simulation system with design patterns and containerized deployment</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-gray-600 text-blue-300 text-xs rounded">C++</span>
+                            <span class="px-2 py-1 bg-gray-600 text-blue-300 text-xs rounded">TypeScript</span>
+                            <span class="px-2 py-1 bg-gray-600 text-blue-300 text-xs rounded">Docker</span>
+                            <span class="px-2 py-1 bg-gray-600 text-blue-300 text-xs rounded">HTML/CSS</span>
+                            <span class="px-2 py-1 bg-gray-600 text-blue-300 text-xs rounded">Agile/Scrum</span>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-300 text-sm space-y-1 mb-4">
+                            <li>Singleton-based DataCollectionManager to track metrics with CSV export</li>
+                            <li>Decorator pattern for dynamic drone capability augmentation</li>
+                            <li>Observer pattern for real-time package tracking</li>
+                            <li>Containerized deployment with frontend integration</li>
+                        </ul>
+                        <div class="flex space-x-3">
+                            <a href="https://github.com/haydenChuu"
+                                class="text-blue-400 hover:text-blue-300 transition-colors">
+                                <i class="fab fa-github mr-1"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <!-- Project 3 -->
                 <div class="project-card bg-gray-700 rounded-xl overflow-hidden shadow-lg border border-gray-600">
                     <div class="h-48 bg-gradient-to-r from-yellow-500 to-orange-600 relative overflow-hidden">
